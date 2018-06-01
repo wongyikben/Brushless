@@ -1,0 +1,13 @@
+Change Component Designator: OldDesignator=24V NewDesignator=FUSE
+Added Component: Designator=12V(D0805)
+Added Component: Designator=24V(D0805)
+Added Component: Designator=C24(CAP10x12)
+Added Component: Designator=R57(CR2012-0805)
+Added Component: Designator=R58(CR2012-0805)
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component 12V VCC_12V
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component 24V VCC_24V
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component C24 470uF
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component F1 20A Fuse
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component FUSE
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component R57 1k
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component R58 4.7k

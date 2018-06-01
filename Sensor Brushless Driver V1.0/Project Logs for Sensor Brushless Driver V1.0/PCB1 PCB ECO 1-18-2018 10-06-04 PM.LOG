@@ -1,0 +1,4 @@
+Added Component: Designator=F1(FUSE SOCKET)
+Added Pin To Net: NetName=VCC_24V Pin=F1-1
+Added Pin To Net: NetName=NetD25_1 Pin=F1-2
+Added Member To Class: ClassName=Sensor Brushless Driver V1.01 Member=Component F1 20A Fuse

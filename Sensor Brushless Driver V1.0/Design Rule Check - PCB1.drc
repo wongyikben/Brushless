@@ -1,0 +1,187 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\WongYikBen\Desktop\Sensor Brushless Driver V1.0\PCB1.PcbDoc
+Date     : 1/18/2018
+Time     : 9:43:07 PM
+
+Processing Rule : Rule
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Silk primitive without silk layer
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=10mil) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=10mil) (Disabled)(IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=10mil) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (Disabled)(All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint (157.48mil > 100mil) : Pad P6-1(6115mil,3418.976mil)  Multi-Layer
+   Violation between Hole Size Constraint (157.48mil > 100mil) : Pad P6-2(6115mil,3730mil)  Multi-Layer
+   Violation between Hole Size Constraint (175mil > 100mil) : Pad P1-1(6180mil,1940mil)  Multi-Layer
+   Violation between Hole Size Constraint (285.433mil > 100mil) : Pad F1-1(6115mil,2590mil)  Multi-Layer
+   Violation between Hole Size Constraint (285.433mil > 100mil) : Pad F1-2(6115mil,2940mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.894mil > 100mil) : Pad Free-0(1640mil,1175mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.894mil > 100mil) : Pad Free-0(1165mil,4800mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.894mil > 100mil) : Pad Free-0(6160mil,1190mil)  Multi-Layer
+   Violation between Hole Size Constraint (175mil > 100mil) : Pad P3-1(6180mil,1725mil)  Multi-Layer
+   Violation between Hole Size Constraint (175mil > 100mil) : Pad P2-1(5995mil,1830mil)  Multi-Layer
+Rule Violations :10
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (Disabled)(All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=8mil) (Max=50000mil) (Preferred=8mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=6mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2415,5735mil) And Via (2415,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2390,5735mil) And Via (2390,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2485,5710mil) And Via (2485,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5735mil) And Via (2325,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2280,5735mil) And Via (2280,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2350,5735mil) And Via (2350,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2460,5710mil) And Via (2460,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2555,5735mil) And Via (2555,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2530,5735mil) And Via (2530,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2595,5705mil) And Via (2620,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2460,5735mil) And Via (2460,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2485,5735mil) And Via (2485,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2390,5710mil) And Via (2415,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5710mil) And Via (2350,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2255,5710mil) And Via (2280,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2595,5705mil) And Via (2595,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2255,5710mil) And Via (2255,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2255,5735mil) And Via (2255,5760mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2530,5710mil) And Via (2555,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2620,5730mil) And Via (2620,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2760,5730mil) And Via (2760,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2735,5730mil) And Via (2735,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2690,5730mil) And Via (2690,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2595,5730mil) And Via (2595,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2665,5705mil) And Via (2665,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2825,5705mil) And Via (2825,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2800,5730mil) And Via (2800,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2895,5730mil) And Via (2895,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2870,5730mil) And Via (2870,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2825,5730mil) And Via (2825,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2665,5705mil) And Via (2690,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2760,5640mil) And Via (2760,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2690,5640mil) And Via (2690,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2665,5640mil) And Via (2665,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2735,5705mil) And Via (2760,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2870,5705mil) And Via (2895,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2665,5730mil) And Via (2665,5755mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2800,5705mil) And Via (2825,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5640mil) And Via (2325,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2415,5640mil) And Via (2415,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2390,5640mil) And Via (2390,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2350,5640mil) And Via (2350,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2255,5640mil) And Via (2255,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2280,5640mil) And Via (2280,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2485,5615mil) And Via (2485,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2460,5640mil) And Via (2460,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2555,5640mil) And Via (2555,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2530,5640mil) And Via (2530,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2485,5640mil) And Via (2485,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5615mil) And Via (2350,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2390,5615mil) And Via (2415,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2255,5615mil) And Via (2280,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2530,5615mil) And Via (2555,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2460,5615mil) And Via (2485,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2735,5640mil) And Via (2735,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2825,5615mil) And Via (2825,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2800,5615mil) And Via (2800,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2620,5640mil) And Via (2620,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2595,5640mil) And Via (2595,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2895,5615mil) And Via (2895,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2870,5640mil) And Via (2870,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2895,5640mil) And Via (2895,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2825,5640mil) And Via (2825,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2800,5640mil) And Via (2800,5665mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2735,5615mil) And Via (2760,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2665,5615mil) And Via (2690,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2595,5615mil) And Via (2620,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2870,5615mil) And Via (2895,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Track on layer Top Layer (2090,4575mil) And Via (2255,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2895,5615mil) And Track on layer Bottom Layer (5945,4800mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2555,5710mil) And Via (2555,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2460,5710mil) And Via (2485,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2665,5615mil) And Via (2665,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2690,5615mil) And Via (2690,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2530,5710mil) And Via (2530,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2390,5710mil) And Via (2390,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2280,5710mil) And Via (2280,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2415,5710mil) And Via (2415,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5710mil) And Via (2325,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5735mil) And Via (2350,5735mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2735,5705mil) And Via (2735,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2760,5705mil) And Via (2760,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2595,5730mil) And Via (2620,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2870,5705mil) And Via (2870,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2895,5705mil) And Via (2895,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2800,5705mil) And Via (2800,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2690,5705mil) And Via (2690,5730mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2760,5615mil) And Via (2760,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2415,5615mil) And Via (2415,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5615mil) And Via (2325,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5640mil) And Via (2350,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2555,5615mil) And Via (2555,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2460,5615mil) And Via (2460,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2390,5615mil) And Via (2390,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2280,5615mil) And Via (2280,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2255,5615mil) And Via (2255,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2800,5615mil) And Via (2825,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2735,5615mil) And Via (2735,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2870,5615mil) And Via (2870,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2595,5615mil) And Via (2595,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2530,5615mil) And Via (2530,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2620,5615mil) And Via (2620,5640mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2350,5710mil) And Via (2390,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2735,5665mil) And Via (2735,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2895,5665mil) And Via (2895,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2690,5665mil) And Via (2690,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2620,5665mil) And Via (2620,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2760,5615mil) And Via (2800,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2350,5615mil) And Via (2390,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2800,5665mil) And Via (2800,5705mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2555,5615mil) And Via (2595,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2415,5615mil) And Via (2460,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2280,5615mil) And Via (2325,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2255,5665mil) And Via (2255,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2530,5665mil) And Via (2530,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2485,5665mil) And Via (2485,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2485,5615mil) And Via (2530,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2690,5615mil) And Via (2735,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2825,5615mil) And Via (2870,5615mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2325,5665mil) And Via (2325,5710mil)
+   Violation between Un-Routed Net Constraint: Net GND Between Via (2620,5615mil) And Via (2665,5615mil)
+   Violation between Un-Routed Net Constraint: Net UHG Between Track on layer Bottom Layer (3125,4185mil) And Pad D1-2 (3230,4185mil)
+   Violation between Un-Routed Net Constraint: Net VCC_24V Between Track on layer Top Layer (5650,4750mil) And Pad C24-1 (5900,4495mil)
+   Violation between Un-Routed Net Constraint: Net VCC_24V Between Track on layer Top Layer (5495,3575mil) And Track on layer Top Layer (5900,4090mil)
+   Violation between Un-Routed Net Constraint: Net VCC_24V Between Fill on layer Top Layer (5330,3205mil) And Track on layer Top Layer (5655,2595mil)
+   Violation between Un-Routed Net Constraint: Net VHG Between Track on layer Bottom Layer (3125,2770mil) And Pad D9-2 (3230,2770mil)
+   Violation between Un-Routed Net Constraint: Net WHG Between Track on layer Bottom Layer (3135,1340mil) And Pad D16-2 (3240,1340mil)
+Rule Violations :127
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 137
+Time Elapsed        : 00:00:01

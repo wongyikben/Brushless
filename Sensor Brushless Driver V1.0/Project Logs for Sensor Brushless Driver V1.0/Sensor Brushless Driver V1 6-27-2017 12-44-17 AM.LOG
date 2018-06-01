@@ -1,0 +1,96 @@
+Added Component: Designator=D26(SMA)
+Added Component: Designator=D27(SMA)
+Added Component: Designator=D28(SMA)
+Added Component: Designator=D29(SMA)
+Added Component: Designator=D30(SMA)
+Added Component: Designator=D31(SMA)
+Added Component: Designator=P1(2.5X4_WIRE_PAD)
+Added Component: Designator=P2(2.5X4_WIRE_PAD)
+Added Component: Designator=P3(2.5X4_WIRE_PAD)
+Added Component: Designator=Q13(TO-252AA)
+Added Component: Designator=Q14(TO-252AA)
+Added Component: Designator=Q15(TO-252AA)
+Added Component: Designator=Q16(TO-252AA)
+Added Component: Designator=Q17(TO-252AA)
+Added Component: Designator=Q18(TO-252AA)
+Added Component: Designator=R42(CR2012-0805)
+Added Component: Designator=R43(CR2012-0805)
+Added Component: Designator=R44(CR2012-0805)
+Added Component: Designator=R45(CR2012-0805)
+Added Component: Designator=R46(CR2012-0805)
+Added Component: Designator=R47(CR2012-0805)
+Added Pin To Net: NetName=UHG Pin=D26-2
+Added Pin To Net: NetName=ULG Pin=D27-2
+Added Pin To Net: NetName=VHG Pin=D28-2
+Added Pin To Net: NetName=VLG Pin=D29-2
+Added Pin To Net: NetName=WHG Pin=D30-2
+Added Pin To Net: NetName=WLG Pin=D31-2
+Added Pin To Net: NetName=MU Pin=P1-1
+Added Pin To Net: NetName=MV Pin=P2-1
+Added Pin To Net: NetName=MW Pin=P3-1
+Added Pin To Net: NetName=VCC_24V Pin=Q13-4
+Added Pin To Net: NetName=ISENS Pin=Q14-3
+Added Pin To Net: NetName=VCC_24V Pin=Q15-4
+Added Pin To Net: NetName=ISENS Pin=Q16-3
+Added Pin To Net: NetName=VCC_24V Pin=Q17-4
+Added Pin To Net: NetName=ISENS Pin=Q18-3
+Added Pin To Net: NetName=UHG Pin=R42-1
+Added Pin To Net: NetName=ULG Pin=R43-1
+Added Pin To Net: NetName=VHG Pin=R44-1
+Added Pin To Net: NetName=VLG Pin=R45-1
+Added Pin To Net: NetName=WHG Pin=R46-1
+Added Pin To Net: NetName=WLG Pin=R47-1
+Added Pin To Net: NetName=NetD26_1 Pin=D26-1
+Added Pin To Net: NetName=NetD26_1 Pin=Q13-1
+Added Pin To Net: NetName=NetD26_1 Pin=R42-2
+Added Net: Name=NetD26_1
+Added Pin To Net: NetName=NetD27_1 Pin=D27-1
+Added Pin To Net: NetName=NetD27_1 Pin=Q14-1
+Added Pin To Net: NetName=NetD27_1 Pin=R43-2
+Added Net: Name=NetD27_1
+Added Pin To Net: NetName=NetD28_1 Pin=D28-1
+Added Pin To Net: NetName=NetD28_1 Pin=Q15-1
+Added Pin To Net: NetName=NetD28_1 Pin=R44-2
+Added Net: Name=NetD28_1
+Added Pin To Net: NetName=NetD29_1 Pin=D29-1
+Added Pin To Net: NetName=NetD29_1 Pin=Q16-1
+Added Pin To Net: NetName=NetD29_1 Pin=R45-2
+Added Net: Name=NetD29_1
+Added Pin To Net: NetName=NetD30_1 Pin=D30-1
+Added Pin To Net: NetName=NetD30_1 Pin=Q17-1
+Added Pin To Net: NetName=NetD30_1 Pin=R46-2
+Added Net: Name=NetD30_1
+Added Pin To Net: NetName=NetD31_1 Pin=D31-1
+Added Pin To Net: NetName=NetD31_1 Pin=Q18-1
+Added Pin To Net: NetName=NetD31_1 Pin=R47-2
+Added Net: Name=NetD31_1
+Added Pin To Net: NetName=NetQ13_3 Pin=Q13-3
+Added Pin To Net: NetName=NetQ13_3 Pin=Q14-4
+Added Net: Name=NetQ13_3
+Added Pin To Net: NetName=NetQ15_3 Pin=Q15-3
+Added Pin To Net: NetName=NetQ15_3 Pin=Q16-4
+Added Net: Name=NetQ15_3
+Added Pin To Net: NetName=NetQ17_3 Pin=Q17-3
+Added Pin To Net: NetName=NetQ17_3 Pin=Q18-4
+Added Net: Name=NetQ17_3
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component D26 MBRS120
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component D27 MBRS120
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component D28 MBRS120
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component D29 MBRS120
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component D30 MBRS120
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component D31 MBRS120
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P1 U
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P2 V
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P3 W
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component Q13 IRFR48Z
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component Q14 IRFR48Z
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component Q15 IRFR48Z
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component Q16 IRFR48Z
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component Q17 IRFR48Z
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component Q18 IRFR48Z
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R42 33R
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R43 33R
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R44 33R
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R45 33R
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R46 33R
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R47 33R

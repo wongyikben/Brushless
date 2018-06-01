@@ -1,0 +1,12 @@
+Added Component: Designator=D25(D0805)
+Added Component: Designator=R41(CR2012-0805)
+Added Pin To Net: NetName=VCC_24V Pin=R41-1
+Added Pin To Net: NetName=NetD25_1 Pin=D25-1
+Added Pin To Net: NetName=NetD25_1 Pin=F1-2
+Added Pin To Net: NetName=NetD25_1 Pin=P6-1
+Added Net: Name=NetD25_1
+Added Pin To Net: NetName=NetD25_2 Pin=D25-2
+Added Pin To Net: NetName=NetD25_2 Pin=R41-2
+Added Net: Name=NetD25_2
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component D25 FUSE
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R41 4.7k

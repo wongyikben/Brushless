@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=DIR NewDesignator=D23
+Change Component Designator: OldDesignator=PWM NewDesignator=D22
+Change Component Designator: OldDesignator=VCC NewDesignator=D24
+Added Pin To Net: NetName=BLI Pin=U2-3
+Added Pin To Net: NetName=AHI Pin=U2-4
+Added Pin To Net: NetName=CLI Pin=U2-11

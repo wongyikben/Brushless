@@ -1,0 +1,14 @@
+Removed Pin From Net: NetName=PWM Pin=D22-1
+Removed Pin From Net: NetName=DIR Pin=D23-1
+Removed Pin From Net: NetName=GND Pin=R32-1
+Removed Pin From Net: NetName=GND Pin=R33-1
+Added Pin To Net: NetName=GND Pin=D22-2
+Added Pin To Net: NetName=GND Pin=D23-2
+Added Pin To Net: NetName=PWM Pin=R32-2
+Added Pin To Net: NetName=DIR Pin=R33-2
+Added Pin To Net: NetName=NetD22_1 Pin=D22-1
+Added Pin To Net: NetName=NetD22_1 Pin=R32-1
+Added Net: Name=NetD22_1
+Added Pin To Net: NetName=NetD23_1 Pin=D23-1
+Added Pin To Net: NetName=NetD23_1 Pin=R33-1
+Added Net: Name=NetD23_1

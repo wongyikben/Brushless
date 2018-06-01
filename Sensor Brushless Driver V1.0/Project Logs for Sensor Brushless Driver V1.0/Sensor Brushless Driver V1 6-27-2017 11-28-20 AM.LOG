@@ -1,0 +1,23 @@
+Removed Pin From Net: NetName=VLG Pin=R52-1
+Removed Pin From Net: NetName=NetD29_1 Pin=R52-2
+Change Component Comment : Designator=R52 Old Comment=33R New Comment=1k
+Added Component: Designator=P1(2.5X4_WIRE_PAD)
+Added Component: Designator=P2(2.5X4_WIRE_PAD)
+Added Component: Designator=P3(2.5X4_WIRE_PAD)
+Added Component: Designator=R53(CR2012-0805)
+Added Component: Designator=R54(CR2012-0805)
+Added Pin To Net: NetName=MU Pin=P1-1
+Added Pin To Net: NetName=MV Pin=P2-1
+Added Pin To Net: NetName=MW Pin=P3-1
+Added Pin To Net: NetName=HALLA Pin=R52-1
+Added Pin To Net: NetName=VCC_5V Pin=R52-2
+Added Pin To Net: NetName=HALLB Pin=R53-1
+Added Pin To Net: NetName=VCC_5V Pin=R53-2
+Added Pin To Net: NetName=HALLC Pin=R54-1
+Added Pin To Net: NetName=VCC_5V Pin=R54-2
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P1 U
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P2 V
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P3 W
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R52 1k
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R53 1k
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R54 1k

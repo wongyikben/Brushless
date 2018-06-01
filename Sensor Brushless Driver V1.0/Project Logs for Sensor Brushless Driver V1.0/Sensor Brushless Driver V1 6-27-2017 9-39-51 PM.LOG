@@ -1,0 +1,22 @@
+Added Component: Designator=P1(2.5X4_WIRE_PAD)
+Added Component: Designator=P2(2.5X4_WIRE_PAD)
+Added Component: Designator=P3(2.5X4_WIRE_PAD)
+Added Component: Designator=R55(CR2012-0805)
+Added Component: Designator=R56(CR2012-0805)
+Added Component: Designator=R57(CR2012-0805)
+Added Pin To Net: NetName=MU Pin=P1-1
+Added Pin To Net: NetName=MV Pin=P2-1
+Added Pin To Net: NetName=MW Pin=P3-1
+Added Pin To Net: NetName=GND Pin=R55-1
+Added Pin To Net: NetName=ALI Pin=R55-2
+Added Pin To Net: NetName=GND Pin=R56-1
+Added Pin To Net: NetName=BLI Pin=R56-2
+Added Pin To Net: NetName=GND Pin=R57-1
+Added Pin To Net: NetName=CLI Pin=R57-2
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P1 U
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P2 V
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component P3 W
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component Project2 Project Logo
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R55 4.7k
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R56 4.7k
+Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R57 4.7k

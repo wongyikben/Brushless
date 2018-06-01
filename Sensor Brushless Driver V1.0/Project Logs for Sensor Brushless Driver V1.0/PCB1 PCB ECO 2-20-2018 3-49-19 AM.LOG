@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=VCC_24V Pin=24V-1
+Removed Pin From Net: NetName=GND Pin=R58-1
+Removed Member From Class: ClassName=Sensor Brushless Driver V1.01 Member=24V
+Removed Member From Class: ClassName=Sensor Brushless Driver V1.01 Member=R58

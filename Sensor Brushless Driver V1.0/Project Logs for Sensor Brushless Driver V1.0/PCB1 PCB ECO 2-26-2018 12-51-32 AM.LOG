@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=MU Pin=D3-2
+Removed Pin From Net: NetName=MV Pin=D10-2
+Removed Pin From Net: NetName=MW Pin=D17-2
+Removed Pin From Net: NetName=MW Pin=R59-2
+Removed Pin From Net: NetName=MV Pin=R60-2
+Removed Pin From Net: NetName=MU Pin=R61-2
+Change Net Name : Old Net Name=MU New Net Name=NetP1_1
+Change Net Name : Old Net Name=MV New Net Name=NetP2_1
+Change Net Name : Old Net Name=MW New Net Name=NetP3_1
+Added Pin To Net: NetName=MU Pin=C26-2
+Added Pin To Net: NetName=MU Pin=D3-2
+Added Pin To Net: NetName=MU Pin=R61-2
+Added Net: Name=MU
+Added Pin To Net: NetName=MV Pin=C27-2
+Added Pin To Net: NetName=MV Pin=D10-2
+Added Pin To Net: NetName=MV Pin=R60-2
+Added Net: Name=MV
+Added Pin To Net: NetName=MW Pin=C28-2
+Added Pin To Net: NetName=MW Pin=D17-2
+Added Pin To Net: NetName=MW Pin=R59-2
+Added Net: Name=MW

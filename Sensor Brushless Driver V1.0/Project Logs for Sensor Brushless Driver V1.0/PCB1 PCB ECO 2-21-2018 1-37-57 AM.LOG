@@ -1,0 +1,7 @@
+Removed Pin From Net: NetName=FAULT_LED Pin=FAULT-1
+Change Component Footprint: Designator=R58 Old Footprint=CR2012-0805 New Footprint=CR1005-0402
+Added Pin To Net: NetName=GND Pin=FAULT-2
+Added Pin To Net: NetName=FAULT_LED Pin=R58-2
+Added Pin To Net: NetName=NetFAULT_1 Pin=FAULT-1
+Added Pin To Net: NetName=NetFAULT_1 Pin=R58-1
+Added Net: Name=NetFAULT_1
