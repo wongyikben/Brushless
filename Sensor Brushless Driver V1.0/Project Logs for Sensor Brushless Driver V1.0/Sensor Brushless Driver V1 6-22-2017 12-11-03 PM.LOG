@@ -1,5 +1,0 @@
-Change Component Designator: OldDesignator=R39 NewDesignator=R40
-Added Component: Designator=R39(CR6332-2512)
-Added Pin To Net: NetName=GND Pin=R39-1
-Added Pin To Net: NetName=ISENS Pin=R39-2
-Added Member To Class: ClassName=Sensor Brushless Driver V1.0 Member=Component R40 330R

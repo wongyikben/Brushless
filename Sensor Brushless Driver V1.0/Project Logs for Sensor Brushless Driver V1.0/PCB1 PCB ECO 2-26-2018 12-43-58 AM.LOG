@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=NetC4_2 Pin=D3-2
-Removed Pin From Net: NetName=NetC7_2 Pin=D10-2
-Removed Pin From Net: NetName=NetC17_2 Pin=D17-2
-Removed Pin From Net: NetName=GND Pin=D18-1
-Added Pin To Net: NetName=MU Pin=D3-2
-Added Pin To Net: NetName=MV Pin=D10-2
-Added Pin To Net: NetName=MW Pin=D17-2
-Added Pin To Net: NetName=MW Pin=R59-2
