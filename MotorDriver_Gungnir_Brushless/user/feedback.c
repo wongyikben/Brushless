@@ -21,7 +21,8 @@ void uart_feedback_live(){
 void uart_feedback(){
 	if (!uart_shut){
 		//uart_tx(UART_FEEDBACK_COM, "%d\t%d\t%d\t%d\t%d\r", 
-			uart_tx(UART_FEEDBACK_COM, "%d\t%d\t%d;", get_PID_KP(),get_PID_KI(),get_PID_KD());
+			//uart_tx(UART_FEEDBACK_COM, "%d\t%d\t%d;", get_PID_KP(),get_PID_KI(),get_PID_KD());
+		uart_tx(UART_FEEDBACK_COM,"%d\t%d\t%d\n",get_path_vel(),get_unit_vel(),get_curr_pwm());
 						//	encoder_cnt, get_unit_vel(), get_path_pos(), get_path_vel(),
 						//	get_curr_pwm());
 	}

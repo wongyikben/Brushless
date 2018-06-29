@@ -10,8 +10,8 @@
 // 1400 normally
 // motor 3 1200
 #define MAX_PWM									14399
-#define PWM_DEAD								1000
-#define PWM_TOLERANCE           0
+#define PWM_DEAD								900
+#define PWM_TOLERANCE           10
 #define MOTOR_TIM								TIM3
 #define MOTOR_TIM_RCC_init()		RCC_APB1PeriphClockCmd(RCC_APB1Periph_TIM3, ENABLE)
 

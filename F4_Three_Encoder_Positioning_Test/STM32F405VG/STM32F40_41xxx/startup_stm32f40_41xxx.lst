@@ -857,13 +857,12 @@ ARM Macro Assembler    Page 14
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M4.fp --apcs=int
 erwork --depend=stm32f40_41xxx\startup_stm32f40_41xxx.d -ostm32f40_41xxx\startu
-p_stm32f40_41xxx.o -IC:\Users\WongYikBen\Desktop\MTO6355-170-HA\F4_Three_Encode
-r_Positioning_Test\STM32F405VG\RTE -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\
-Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.10.0\Drivers\CMSIS\Device\ST
-\STM32F4xx\Include --predefine="__MICROLIB SETA 1" --predefine="__UVISION_VERSI
-ON SETA 521" --predefine="_RTE_ SETA 1" --predefine="STM32F405xx SETA 1" --list
-=.\stm32f40_41xxx\startup_stm32f40_41xxx.lst sys\Device\ST\STM32F4xx\Source\Tem
-plates\arm\startup_stm32f40_41xxx.s
+p_stm32f40_41xxx.o -I.\RTE\_STM32F40_41xxx -IC:\Keil_v5\ARM\PACK\ARM\CMSIS\5.3.
+0\CMSIS\Include -IC:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.13.0\Drivers\CMSIS\D
+evice\ST\STM32F4xx\Include --predefine="__EVAL SETA 1" --predefine="__MICROLIB 
+SETA 1" --predefine="__UVISION_VERSION SETA 523" --predefine="_RTE_ SETA 1" --p
+redefine="STM32F405xx SETA 1" --list=.\stm32f40_41xxx\startup_stm32f40_41xxx.ls
+t sys\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f40_41xxx.s
 
 
 
@@ -2293,4 +2292,4 @@ stm32f40_41xxx.s
 stm32f40_41xxx.s
 Comment: __main used once
 2 symbols
-446 symbols in table
+447 symbols in table

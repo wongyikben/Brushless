@@ -93,7 +93,7 @@ static void set_dir(Direction dir){
 }
 
 void set_pwm(s32 pwm){
-	 pwm*=2;
+
 //	pwm += PWM_DEAD * SIGN(pwm);
 	if (pwm > MAX_PWM*MAX_POWER_PERCENTAGE/100){
 		pwm = MAX_PWM*MAX_POWER_PERCENTAGE/100;
@@ -128,7 +128,7 @@ void set_pwm(s32 pwm){
 		stfu_mode = false;
 	}
 	*/
-	
+	 pwm*=2;
 	if (!stfu_mode){
 		TIM_SetCompare3(MOTOR_TIM, ABS(pwm));
 	}else{

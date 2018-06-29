@@ -40,7 +40,7 @@ extern u8 this_motor;
 	#error Hi Today is a good day
 #endif
 
-#define CONTROL_FREQ 1024
+#define CONTROL_FREQ 512
 	// on9 motor 3
 //Direction: 1 or -1
 #define PWM_DIR (1)  // normaly 1
@@ -52,7 +52,7 @@ extern u8 this_motor;
 //Note that this is useless now, but I'm keeping it because I wanted more trust and love in this world :)
 
 #define MAX_ORIG_VEL (200000)
-#define MAX_ORIG_ACC (60000)
+#define MAX_ORIG_ACC (55000)
 
 // 200000
 // 95000

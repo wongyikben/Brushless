@@ -51,7 +51,7 @@ extern u8 this_motor;
 #define I_TRUST_MYSELF
 //Note that this is useless now, but I'm keeping it because I wanted more trust and love in this world :)
 
-#define MAX_ORIG_VEL (200000)
+#define MAX_ORIG_VEL (1000)
 #define MAX_ORIG_ACC (60000)
 
 // 200000

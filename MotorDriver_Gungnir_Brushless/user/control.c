@@ -33,15 +33,21 @@
 
 #define PID_SCALE (1024)
 #define MAX_I (CONTROL_FREQ*8)
-#define MOSFET_REVERSE_COEFF 1/512
+#define MOSFET_REVERSE_COEFF 19/512
 
 //Physical constants
 volatile s32 max_accel = MAX_ORIG_ACC;
 volatile s32 max_veloc = MAX_ORIG_VEL;
 
-volatile s32 PID_KP =11410;
-volatile s32 PID_KI = 186;
-volatile s32 PID_KD = 74;
+/*
+volatile s32 PID_KP =22000;
+volatile s32 PID_KI = 50;
+volatile s32 PID_KD = 380;*/
+
+volatile s32 PID_KP =25000;
+volatile s32 PID_KI = 50;
+volatile s32 PID_KD = 280;
+volatile s32 PID_KDD = 0;
 
 volatile s32 last_set_vel = 0;
 volatile s32 last_set_pos = 0;
@@ -152,12 +158,16 @@ volatile s64 diff_err = 0;
 volatile s64 inte_err = 0;
 volatile s64 velc_err = 0;
 volatile s64 last_dif = 0;
+volatile s64 last_vel_dif = 0;
+volatile s64 vel_diff_err = 0;
 
 s32 update_pid(){
 	s64 curr_vel = get_unit_vel();
 	curr_err = get_path_pos() - get_unit_cnt();
 	diff_err = get_path_vel() - curr_vel;
 	velc_err = diff_err - last_dif;
+	vel_diff_err = velc_err - last_vel_dif;
+	last_vel_dif = velc_err;
 	last_dif = diff_err;
 	
 	inte_err = inte_err*99/100 + curr_err;
@@ -185,13 +195,20 @@ s32 update_pid(){
 		Kv = PID_NEG_KV;
 	}else{*/
 		//Use default set
+	//if(ABS(velc_err)>500){
+	//	Kd = PID_KD*3;
+	//}else{
+		Kd = PID_KD;
+	//}
 		Kp = PID_KP;
 		Ki = PID_KI;
-		Kd = PID_KD;
-		Kv = 0;
+		Kv = PID_KDD;
+
+		
+		
 	//}
 	
-	s64 duty = (s64)(Kp*curr_err + Ki*inte_err + Kd*diff_err + Kv*velc_err)/(s64)PID_SCALE;
+	s64 duty = (s64)(Kp*curr_err + Ki*inte_err + Kd*diff_err + Kv*vel_diff_err)/(s64)PID_SCALE;
 	
 	//This section helps reduce tak tak sound
 	if ((duty!=0) && (ABS(curr_vel)>4096) && (SIGN(curr_vel) != SIGN(duty))){

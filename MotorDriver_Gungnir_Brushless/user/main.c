@@ -120,7 +120,7 @@ int main(){
 			}
 			
 			static u32 last_uart_ticks = 0;
-			if (this_ticks - last_uart_ticks >= 10){
+			if (this_ticks - last_uart_ticks >= 40){
 				//UART feedback for debugging
 				uart_feedback();
 				

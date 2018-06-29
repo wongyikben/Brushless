@@ -2,7 +2,7 @@
 u16 mode = 0;
 s32 MAX_VEL = 70000; 
 s32 MAX_VEL_PRESC = 0;
-u16 ACCEL_Fake = 800; //800
+u16 ACCEL_Fake = 600; //800
 u16 ACCEL = 0;
 u8 reverse = 0;
 u16 i=0;
@@ -426,8 +426,22 @@ int main(void) {
 				}
 					//ACCEL_Fake-=50;
 			
-			if(gar_button_pressed(GAR_POLE4))
-				debugOpen();				
+			if(gar_button_pressed(GAR_POLE4)||gar_button_pressed(GAR_POLE4)){
+					gun_can_motor_set_pos(MOTOR_1,100);
+					u8 k = 0;
+					u32 time = get_ticks()+2000;
+					while(time>get_ticks()){
+						k++;
+					}
+					gun_can_motor_set_pos(MOTOR_1,0);
+					time = get_ticks()+1000;
+					while(time>get_ticks()){
+						k++;
+					}
+			
+			
+			}
+				//debugOpen();				
  			if (gar_button_pressed(GAR_IO3)){
 				gun_set_PID(MOTOR_1,4);
 				PID_KI+=5;

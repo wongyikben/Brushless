@@ -1,4 +1,4 @@
---cpu Cortex-M4.fp
+--cpu=Cortex-M4.fp
 "stm32f40_41xxx\stm32f4xx_adc.o"
 "stm32f40_41xxx\stm32f4xx_can.o"
 "stm32f40_41xxx\stm32f4xx_cec.o"
